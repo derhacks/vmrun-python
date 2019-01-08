@@ -2,9 +2,8 @@
 
 try:
     from setuptools import setup
-except ImportError, excp:
+except ImportError as excp:
     from distutils.core import setup
-
 import vmrun
 
 setup(	name = 'vmrun',
@@ -12,7 +11,8 @@ setup(	name = 'vmrun',
     description = 'Control Vmware from Python. Used the vmrun.exe',
     author = 'Binjo',
     author_email = 'binjo.cn@gmail.com',
-    url = 'http://github.com/binjo/vmrun-python.git',
+    update_by = 'DerHacks',
+    url = 'https://github.com/derhacks/vmrun-python.git',
     download_url = '',
     license = 'GNU GPL v2',
     keywords = 'vmrun vmware python',
