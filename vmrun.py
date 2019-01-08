@@ -18,6 +18,10 @@ __license__     = "GNU GPL v2"
 # Based on vmrun-ruby, Alexander Sotirov <asotirov@determina.com>
 #
 import os
+import re
+import time
+import stat
+import codecs
 import subprocess
 
 class Vmrun:
